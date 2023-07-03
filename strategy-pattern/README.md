@@ -1,13 +1,17 @@
 # Strategy Pattern
 
-#### Implementing Ducks with inheritance
+## Strategy Pattern Diagram
 
-Inheritance didn't work well
+![strategy-pattern-diagram](strategy-pattern.png)
 
-- Behaviour change across subclasses and some subclasses do not need some behaviour
+## Strategy pattern principles
 
-#### Implementing Ducks with interface
+- Encapsulates what varies
+- Program to an interface not to an implementatiion
+- Favour composite over inheritance
 
-Interface didn't work well
+### Practice
 
-- Interface does not supply implmentation, hence, destroy code reuse
+- Implementing Ducks with startegy pattern
+
+- Implementing Ducks with startegy pattern
