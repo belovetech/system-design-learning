@@ -1,6 +1,4 @@
 import {
-  FlyBehaviour,
-  QuackBehaviour,
   FlyWithWings,
   Quack,
   FlyNoWay,
