@@ -17,4 +17,4 @@ This pattern convert an interface of a class into another interface that client 
 
 Here, we created Turkey Adapter to implement Duck interface without making changes to Turkey interface. We also implmented Drone Adapter to use Duck interface. This pattern enhance flexibility and comply with open-closed principle.
 
-![adapter-pattern-diagram](drone-adapter.jpg)
+![adapter-pattern-diagram](duck-adapter.jpg)
