@@ -1,5 +1,3 @@
-import { Duck } from './duck';
-
 export interface Turkey {
   gobble(): void;
   fly(): void;
