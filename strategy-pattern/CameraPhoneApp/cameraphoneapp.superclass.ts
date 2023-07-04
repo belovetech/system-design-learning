@@ -1,9 +1,4 @@
-import {
-  ShareBehaviour,
-  Text,
-  Email,
-  SocialMedia,
-} from './cameraphoneapp.interface';
+import { ShareBehaviour } from './cameraphoneapp.interface';
 
 abstract class CameraPhoneApp {
   protected shareBehaviour!: ShareBehaviour;
@@ -24,9 +19,9 @@ abstract class CameraPhoneApp {
 }
 
 export class BasicCameraApp extends CameraPhoneApp {
-  constructor() {
+  constructor(shareInstance: ShareBehaviour) {
     super();
-    this.shareBehaviour = new Text();
+    this.shareBehaviour = shareInstance;
   }
 
   edit(): void {
@@ -35,9 +30,9 @@ export class BasicCameraApp extends CameraPhoneApp {
 }
 
 export class CameraPlusApp extends CameraPhoneApp {
-  constructor() {
+  constructor(shareInstance: ShareBehaviour) {
     super();
-    this.shareBehaviour = new Email();
+    this.shareBehaviour = shareInstance;
   }
 
   edit(): void {
