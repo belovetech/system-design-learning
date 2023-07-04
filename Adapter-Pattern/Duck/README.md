@@ -1,3 +1,3 @@
 # Duck Simulator using the Adapter Pattern
 
-![duck-turkey-adpter-diagram](Duck-Turkey-adapter.jpg)
+![adapter-pattern-diagram](../drone-adapter.jpg)
