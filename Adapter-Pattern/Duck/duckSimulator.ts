@@ -1,6 +1,8 @@
 import { Duck, MallardDuck } from './duck';
-import { Turkey, WideTurkey } from './turkey';
-import { TurkeyAdapter } from './adapter';
+import { Drone, SuperDrone } from '../Drone/drone';
+import { DroneAdapter } from '../Drone/droneAdapter';
+import { Turkey, WideTurkey } from '../Turkey/turkey';
+import { TurkeyAdapter } from '../Turkey/turkeyAdapter';
 
 class DuckSimulator {
   public static main() {
@@ -14,6 +16,12 @@ class DuckSimulator {
     const turkey: Turkey = new WideTurkey();
     const turkeyAdapter: Duck = new TurkeyAdapter(turkey);
     this.testDuck(turkeyAdapter);
+
+    // Test Drone
+    console.log('=============Testing Drone================');
+    const drone: Drone = new SuperDrone();
+    const droneAdapter: Duck = new DroneAdapter(drone);
+    this.testDuck(droneAdapter);
   }
 
   private static testDuck(duck: Duck) {

@@ -1,4 +1,4 @@
-import { Duck } from './duck';
+import { Duck } from '../Duck/duck';
 import { Turkey } from './turkey';
 
 export class TurkeyAdapter implements Duck {
