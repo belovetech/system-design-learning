@@ -15,6 +15,6 @@ This pattern convert an interface of a class into another interface that client 
 
 ### Implmentation of Duck Simulator with Adapter Pattern
 
-Here, we created Turkey Adapter to implement Duck interface without making changes to Turkey interface. We also implmented Drone Adapter to use Duck interface. This pattern enhance flexibility and comply with open-closed principle.
+Here, we created Turkey Adapter to implement the Duck interface without making changes to the Turkey interface. We also implmented Drone Adapter to use the Duck interface. This pattern enhance flexibility and comply with open-closed principle.
 
 ![adapter-pattern-diagram](duck-adapter.jpg)
