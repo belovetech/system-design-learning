@@ -1,7 +1,7 @@
 import { Subject } from './subject';
 
 export interface Observer {
-  update(value: number): void;
+  update(value: any): void;
 }
 
 export class SimpleObserver implements Observer {
