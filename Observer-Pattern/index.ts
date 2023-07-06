@@ -1,4 +1,4 @@
-import { Observer, SimpleObserver } from './observer';
+import { SimpleObserver } from './observer';
 import { SimpleSubject } from './subject';
 
 class SubjectSimulator {
@@ -7,10 +7,9 @@ class SubjectSimulator {
     const observer1 = new SimpleObserver(subject);
     const observer2 = new SimpleObserver(subject);
 
+    subject.removeObserver(observer1);
     subject.setValue(20);
-
-    const observers = subject.getObservers();
-    console.log(observers);
+    console.log(subject.getObservers());
   }
 }
 
