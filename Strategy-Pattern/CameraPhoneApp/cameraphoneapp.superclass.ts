@@ -7,6 +7,10 @@ abstract class CameraPhoneApp {
     this.shareBehaviour.share();
   }
 
+  public setShareBehaviour(shareBehaviour: ShareBehaviour): void {
+    this.shareBehaviour = shareBehaviour;
+  }
+
   public take(): void {
     console.log('Take!');
   }
