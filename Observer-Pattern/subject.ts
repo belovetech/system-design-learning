@@ -35,4 +35,8 @@ export class SimpleSubject implements Subject {
     this.value = value;
     this.notifyObserver();
   }
+
+  public getObservers(): Array<Observer> {
+    return this.observers;
+  }
 }
