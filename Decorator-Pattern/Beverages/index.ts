@@ -1,5 +1,5 @@
 import { Beverages, DarkRoast } from './beverages';
-import { Mocha, Whip } from './condimentDecorator';
+import { Mocha, Whip } from './condiment.decorator';
 
 class StarBuzzCofee {
   public static main() {
