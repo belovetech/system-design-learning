@@ -5,4 +5,4 @@ The pattern attaches additional responsibilites to an object dynamicallly. Decor
 - It uses Open-closed principle
   - Open for extension but close for modification
 
-!()[decorator-pattern.jpg]
+![decorator-pattern](decorator-pattern.jpg)
