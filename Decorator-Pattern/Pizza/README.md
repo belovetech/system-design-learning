@@ -1,3 +1,3 @@
-# Implemetation of Pizza using Decorator Pattern
+# Implementation of Pizza using Decorator Pattern
 
 ![pizza](pizza.jpg)

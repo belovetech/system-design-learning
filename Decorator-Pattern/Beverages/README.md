@@ -1,3 +1,3 @@
-# Implemetation of Beverages using Decorator Pattern
+# Implementation of Beverages using Decorator Pattern
 
 ![beverages](beverages.jpg)
